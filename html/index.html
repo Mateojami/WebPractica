@@ -96,9 +96,30 @@
         </div>
         <!--header, body, nav, section-->
         <!--Formularios-->
-        <form action="">
-            
+        <form action="https://www.google.com"> <!-- form es el elemento que agrupa los campos del formulario -->
+            <h2>Estudiante</h2>
+            <label for="id_name">Nombre:</label> <!-- etiqueta para el campo de texto -->
+            <input type="text" id="id_name" name="name" placeholder="Ingrese su nombre..."><br><br>
+
+            <label for="id_email">Correo Electrónico:</label>
+            <input type="email" id="id_email" name="email" placeholder="Ingrese su correo electrónico..."><br><br>
+
+            <label for="id_date">Fecha:</label>
+            <input type="date" id="id_date" name="date"><br><br>
+
+            <label for="id_password">Contraseña:</label>
+            <input type="password" id="id_password" name="password" placeholder="Ingrese su contraseña..."><br><br>
+
+            <button>Guardar</button>
         </form>
+
+        <!-- Multimedia-->
+        <h3>Imagen de ejemplo</h3>
+        <img src="https://ichef.bbci.co.uk/ace/ws/640/cpsprodpb/9db5/live/48fd9010-c1c1-11ee-9519-97453607d43e.jpg.webp" alt="Paisaje" width="500">
+        <img src="/img/dragon.jpg" alt="Dragon" width="400"><br><br>
+        <video width="1000" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+        </video>
 
 
 
